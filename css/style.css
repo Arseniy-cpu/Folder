@@ -1,0 +1,229 @@
+.header{
+	background: rgb(44, 44, 44);
+}
+.logo__title{
+	color: rgb(255, 255, 255);
+	font-family: Nova Cut;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0%;
+	text-align: left;
+	margin-right: auto;
+}
+.nav__link{
+	color: rgb(0, 196, 240);
+	font-family: Nico Moji;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0%;
+	text-align: left;
+	text-decoration: none;
+}
+.nav__list{
+	display: flex;
+	list-style: none;
+}
+.nav__item{
+	margin-right: 63px;
+}
+.container{
+	width: 1512px;
+	margin: 0 auto;
+}
+.container__header{
+	display: flex;
+	padding: 36px 0px;
+}
+.logo__img{
+    height: 51px;
+    width: 51px;
+    margin-right: 10px;
+}
+.container__hero-block{
+	display: flex;
+	justify-content: space-between;
+}
+.hero-block{
+	background: rgb(12, 109, 103);
+	height: 707px;
+}
+.hero-block__title{
+	color: rgb(228, 228, 228);
+	font-family: IBM Plex Mono;
+	font-size: 72px;
+	font-weight: 400;
+	line-height: 94px;
+	letter-spacing: 0%;
+	text-align: left;
+	margin-top: 160px;
+}
+.hero-block__text{
+	color: rgb(255, 255, 255);
+	font-family: IBM Plex Mono;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 31px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+.hero-block__btn{
+	color: rgb(0, 0, 0);
+	font-family: Nico Moji;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0%;
+	text-align: center;
+	border-radius: 6px;
+	box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+	background: linear-gradient(135.00deg, rgb(226, 163, 0),rgb(226, 149, 0) 100%);
+	width: 224px;
+	height: 47px;
+}
+.hero-block__content{
+	width: 450px;
+	margin-left: 120px;
+}
+.hero-block__img{
+	height: 574px;
+	width: 788px;
+	margin-top: 38px;
+}
+.about{
+	background-color: rgb(102, 9, 9, 1.0);
+}
+.about__title{
+	color: rgb(255, 255, 255);
+	font-family: Nico Moji;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 48px;
+	letter-spacing: 0%;
+	text-align: center;
+}
+.rating__title{
+	color: rgb(228, 228, 228);
+	font-family: IBM Plex Mono;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 39px;
+	letter-spacing: 0%;
+	text-align: left;
+	margin-top: 100px;
+	margin-left: 110px;
+}
+.rating__item{
+	color: rgb(228, 228, 228);
+	font-family: Notable;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 39px;
+	letter-spacing: 0%;
+	text-align: left;
+}
+.rating__list{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 110px;
+}
+.rating-bar{
+	width: 356px;
+	height: 10px;
+	background: rgb(44, 44, 44);
+}
+.about__content{
+	display: flex;
+	justify-content: space-between;
+}
+.rating-bar-done1{
+	background: rgb(0, 196, 240);
+	width: 76%;
+	height: 100%;
+}
+.rating-bar-done2{
+	background: rgb(0, 196, 240);
+	width: 68%;
+	height: 100%;
+}
+.rating-bar-done3{
+	background: rgb(0, 196, 240);
+	width: 89%;
+	height: 100%;
+}
+
+.container__about{
+	padding: 66px 0 128px;
+}
+.video__video{
+	width: 100%;
+	height: 650px;
+	border: 44px solid rgb(65, 65, 65);
+	border-radius: 29px;
+}
+.video{
+	background: rgb(59, 68, 149);
+}
+.video__title{
+	color: rgb(228, 228, 228);
+	font-family: IBM Plex Mono;
+	font-size: 64px;
+	font-weight: 400;
+	line-height: 83px;
+	letter-spacing: 0%;
+	text-align: center;
+}
+.container__video{
+		padding: 65px 0 134px;
+}
+.container__footer{
+	padding: 30px 0 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer__title{
+	color: rgb(228, 228, 228);
+	font-family: IBM Plex Mono;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 39px;
+	letter-spacing: 0%;
+	text-align: left;
+}
+.footer__text{
+	color: rgb(255, 255, 255);
+	font-family: Nico Moji;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 164.06%;
+	letter-spacing: 0%;
+	text-align: left;
+	margin-top: 1px;
+	margin-left: 10px;
+}
+.footer__list{
+	display: flex;
+}
+.footer__item{
+	width: 40px;
+	margin-right: 30px;
+	list-style: none;
+}
+.footer__img{
+	width: 150%;
+	margin-top: 10px;
+	padding-left: 30px;
+}
+.footer{
+	background: rgb(44, 44, 44);
+	height: 176px;
+}
+.footer__vector{
+	width: 26px;
+	height: 26px;
+}
+.footer__content2{
+	display: flex;
+}
